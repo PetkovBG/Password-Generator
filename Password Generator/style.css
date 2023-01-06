@@ -1,0 +1,88 @@
+body {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #0081CF;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #0081CF;
+    display: flex;
+    justify-content: cetner;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.char-container {
+    display: flex;
+    align-items: center;
+}
+
+.num-input {
+    width: 2.2rem;
+    height: 1rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.password-display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 1rem;
+}
+
+.generateBtn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.generateBtn:hover{
+    background-color: #FFFFFF33;
+}
