@@ -37,4 +37,6 @@ Built password generator with HTML, CSS &amp; JavaScript
 #### The number of characters field does not allow the user to go below 1 so it always generates a password when the Generate Password button is selected
 ![image](https://user-images.githubusercontent.com/97334281/214678786-6d41719e-75f7-487b-ab3f-60d137601e8f.png)
 
+#### Example with length of 5, Uppercase and Symbol options selected
+![image](https://user-images.githubusercontent.com/97334281/214679204-95bbabf9-ac60-43a6-ad6f-d460da1ca769.png)
 
